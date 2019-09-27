@@ -37,4 +37,4 @@ Once you have the application running on your iOS device:
 
 3. Selecting an entry in your password manager (either iOS Keychain or third party services like 1Password, LastPass, etc.) that *has* a username and password combination **will correctly** autofill both the username and password entry field.
 
-Notice that in this case, `ion-input` is not a child of another Ionic component (outside of `ion-content`, which is fine).
+Notice that in this case, `ion-input` is not a child of another Ionic component (outside of `ion-content`, which is fine). See [this code](https://github.com/bryplano/UsernameRepro/blob/simple/src/app/home/home.page.html#L10).
